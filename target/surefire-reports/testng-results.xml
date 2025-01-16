@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-17T01:29:34 IST" name="Surefire suite" finished-at="2025-01-17T01:29:41 IST" duration-ms="6048">
+    <groups>
+    </groups>
+    <test started-at="2025-01-17T01:29:34 IST" name="Surefire test" finished-at="2025-01-17T01:29:41 IST" duration-ms="6048">
+      <class name="com.example.tests.ParameterisedTests">
+        <test-method signature="testGetUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.ParameterisedTests@176b75f7]" started-at="2025-01-17T01:29:34 IST" name="testGetUser" data-provider="userDataProvider" finished-at="2025-01-17T01:29:38 IST" duration-ms="3576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Leanne Graham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.ParameterisedTests@176b75f7]" started-at="2025-01-17T01:29:38 IST" name="testGetUser" data-provider="userDataProvider" finished-at="2025-01-17T01:29:41 IST" duration-ms="2454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ervin Howell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.example.tests.ParameterisedTests@176b75f7]" started-at="2025-01-17T01:29:41 IST" name="generateReport" finished-at="2025-01-17T01:29:41 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.example.tests.ParameterisedTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
